@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Imagenes/Mi J .png">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+
+     <!--Encabezado-->
+    <header>
+        <a href="#" rel="">
+            <img src="./Imagenes/Logo.png" alt="Logo Alura" class= Logo>
+        </a>
+    </header>
+
+     <!-- Principal -->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src ="./Imagenes/Exlamacion1.jpg" alt="imagen aviso" class="img-aviso">
+                <p class="texto-aviso">solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar!</button>
+                <button type="submit" class ="btn-desencriptar">Desencriptar!</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./Imagenes/muñecoblanco.png" alt="imagen muñeco" class="img.muñeco">
+                <p class="texto-uno">ningun mensaje fue encontrado</p>
+                <p class="texto-dos">ingrese el texto que deseas encriptar o desencriptar </p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">copiar</button>
+        </section>
+    </main>
+
+    <!--pie de pagina-->
+    <footer>
+        <p class="copyright">&copy; copyright 2024 - Encriptado de Texto - Desarrollado por Jesus D  </p>
+        <a href="https://www.linkedin.com/feed/" rel="git hub">
+            <img src="./Imagenes/linkeind.png" alt="logo linkeind" class="linked">           
+        </a>
+        <a href="https://github.com/Killerquilla" rel="Git hub">
+            <img src="./Imagenes/git hut.png" alt="logo githut" class="git">           
+        </a>
+    </footer>
+
+    <script src="./js/encriptador.js"></script>
+    
+</body>
+</html>
